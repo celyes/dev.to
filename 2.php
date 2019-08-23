@@ -1,11 +1,10 @@
 <?php 
 
 function drawDiamond($diameter){
-    $code = "";
     if($diameter <= 2){
         trigger_error("provide more than 2 in diameter at least ! ", E_USER_WARNING);
     }else{
-        $code .= "<pre style='text-align: center; font-size: 22px;'>";
+        $code = "<pre style='text-align: center; font-size: 22px;'>";
         for($i = 1; $i < $diameter; $i+=2){
             $code .= str_repeat("*", $i) . "<br>";
         }
