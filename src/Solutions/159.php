@@ -1,5 +1,7 @@
 <?php 
 
+namespace Solutions;
+
 function is_isogram($s) 
 {
     $s = strtolower($s);

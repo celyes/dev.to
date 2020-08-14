@@ -1,4 +1,7 @@
 <?php
+
+namespace Solutions;
+
 function alphabet_position($text){
 
     $alphabet = range('a', 'z'); 

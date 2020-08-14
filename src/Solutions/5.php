@@ -1,4 +1,9 @@
 <?php 
+
+namespace Solutions;
+
+use Exception;
+
 function take_a_walk(int $distance){
 
     if($distance %2 == 1){ 

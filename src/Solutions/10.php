@@ -1,5 +1,7 @@
 <?php 
 
+namespace Solutions;
+
 function evaluate(string $x){
     return eval('return '.$x.';');
 }

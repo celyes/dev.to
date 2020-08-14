@@ -1,5 +1,9 @@
 <?php 
 
+namespace Solutions;
+
+use Exception;
+
 function formPhoneNumber(array $integers): string
 {
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace Solutions;
+
 function report(string $str) {
     
     $data = explode(PHP_EOL, $str);

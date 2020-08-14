@@ -1,0 +1,22 @@
+{
+    "name": "celyes/dev.to",
+    "description": "Dev.to challenges solved in PHP",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "celyes",
+            "email": "celyes02@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/Solutions/1.php",
+            "src/Solutions/2.php",
+            "src/Solutions/3.php"
+        ]
+    }
+}

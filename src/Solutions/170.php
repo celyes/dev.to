@@ -1,5 +1,7 @@
 <?php 
 
+namespace Solutions;
+
 class Pokemon {
 
     public $baseDamage;
