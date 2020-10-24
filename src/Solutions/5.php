@@ -1,10 +1,10 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 use Exception;
 
-function take_a_walk(int $distance){
+function takeAWalk(int $distance){
 
     if($distance %2 == 1){ 
         throw new Exception("take an even number of steps or no return home! <br>");
@@ -17,7 +17,6 @@ function take_a_walk(int $distance){
         $steps[] = $directions[($index + 2) %4];
     }
     shuffle($steps);
-    $steps = implode(', ', $steps) . PHP_EOL;
     return $steps;
 }
-echo "Steps to take : " . take_a_walk(58);
+// print_r(takeAWalk(4));

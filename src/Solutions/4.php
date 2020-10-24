@@ -1,6 +1,6 @@
 <?php
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 function report(string $str) {
     
@@ -10,7 +10,7 @@ function report(string $str) {
     }, $data);
     
     $balance = floatval(array_shift($data));
-    $result = 'Original Balance: ' . number_format($balance, 2) . "<br>";
+    $result = 'Original Balance: ' . number_format($balance, 2) . "\n";
     $expenses = [];
     sort($data);
     foreach ($data as $index => $line) {
@@ -22,28 +22,11 @@ function report(string $str) {
         }
         $expenses[] = floatval(end($parts));
         $balance -= end($expenses);
-        $result .= number_format(end($parts), 2) . ', Balance: ' . number_format($balance, 2) . "<br>";
+        $result .= number_format(end($parts), 2) . ', Balance: ' . number_format($balance, 2) . "\n";
     }
 
     $total_expenses = array_sum($expenses);
-    $result .= 'Total expenses: ' . number_format($total_expenses, 2) . "<br>";
-    $result .= 'Average expense: ' . number_format($total_expenses / count($expenses), 2) . "<br>";
+    $result .= 'Total expenses: ' . number_format($total_expenses, 2) . "\n";
+    $result .= 'Average expense: ' . number_format($total_expenses / count($expenses), 2) . "\n";
     return $result;
 }
-
-
-$text = '1233.00
-125 Hardware;! 24.8?;
-123 Flowers 93.5
-127 Meat 120.90
-120 Picture 34.00
-124 Gasoline 11.00
-123 Photos;! 71.4?;
-122 Picture 93.5
-132 Tires;! 19.00,?;
-129 Stamps 13.6
-129 Fruits{} 17.6
-129 Market;! 128.00?;
-121 Gasoline;! 13.6?;';
-
-echo report($text);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 // round the number to the closest value (255 or 0)
 function roundToClosest($color)

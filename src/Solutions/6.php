@@ -1,6 +1,6 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 $friends = [["A1", "X1"], ["A2", "X2"], ["A3", "X3"], ["A4", "X4"]];
 $distances = [["X1", 100], ["X2", 200], ["X3", 250], ["X4", 300]];

@@ -1,6 +1,6 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 class Pokemon {
 

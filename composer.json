@@ -1,9 +1,6 @@
 {
     "name": "celyes/dev.to",
     "description": "Dev.to challenges solved in PHP",
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -12,11 +9,27 @@
         }
     ],
     "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
     "autoload": {
         "files": [
             "src/Solutions/1.php",
             "src/Solutions/2.php",
-            "src/Solutions/3.php"
+            "src/Solutions/3.php",
+            "src/Solutions/4.php",
+            "src/Solutions/5.php",
+            "src/Solutions/6.php",
+            "src/Solutions/9.php",
+            "src/Solutions/10.php",
+            "src/Solutions/47.php",
+            "src/Solutions/48.php",
+            "src/Solutions/158.php",
+            "src/Solutions/159.php",
+            "src/Solutions/160.php",
+            "src/Solutions/170.php",
+            "src/Solutions/266.php",
+            "src/Solutions/298.php"
         ]
     }
 }

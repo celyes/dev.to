@@ -4,9 +4,9 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use function Solutions\drawDiamond;
+use function Celyes\Solutions\drawDiamond;
 
-final class TestChallenge2 extends TestCase
+final class TestSolution2 extends TestCase
 {
     public function testIfSecondChallengeSolutionIsCorrect()
     {

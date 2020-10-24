@@ -1,6 +1,6 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 function countVowels($string){
     preg_match_all("/[aeiou]/i", $string, $matches);

@@ -4,9 +4,9 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use function Solutions\countVowels;
+use function Celyes\Solutions\countVowels;
 
-final class TestChallenge3 extends TestCase
+final class TestSolution3 extends TestCase
 {
     public function testIfThirdChallengeSolutionIsCorrect()
     {

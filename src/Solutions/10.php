@@ -1,6 +1,6 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 function evaluate(string $x){
     return eval('return '.$x.';');

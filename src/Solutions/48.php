@@ -1,6 +1,6 @@
 <?php 
 
-namespace Solutions;
+namespace Celyes\Solutions;
 
 // $likes = ["Alex", "John", "Jeremiah", "David", "Travis"];
 

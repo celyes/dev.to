@@ -4,9 +4,9 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use function Solutions\removeFirstAndLastLetter;
+use function Celyes\Solutions\removeFirstAndLastLetter;
 
-final class TestChallenge1 extends TestCase
+final class TestSolution1 extends TestCase
 {
     public function testIfFirstChallengeSolutionIsCorrect()
     {
